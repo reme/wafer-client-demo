@@ -1,8 +1,19 @@
 {
     "pages": [
+        "pages/mall/mall",
         "pages/index/index",
         "pages/chat/chat"
     ],
+     "tabBar": {
+    "list": [{
+      "pagePath": "pages/mall/mall",
+      "text": "mall"
+    },
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    } ]
+  },
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#333",
